@@ -73,7 +73,7 @@ public class Trace implements MethodInterceptor {
             if( obj == args[i])
                 System.out.println("this");
             else
-                System.out.println(args[i]);
+                 System.out.println(args[i]);
         }
         ident++;
 
