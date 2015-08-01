@@ -79,7 +79,7 @@ public class Trace implements MethodInterceptor {
 
         Object retValFromSuper = null;
         try {
-            retValFromSuper = proxy.invokeSuper(obj, args);
+             retValFromSuper = proxy.invokeSuper(obj, args);
             ident--;
         } catch (Throwable t) {
             ident--;
